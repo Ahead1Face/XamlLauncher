@@ -1,0 +1,16 @@
+D:\Sigma\BattleLauncher\BattleLauncher\bin\Debug\BattleLauncher.exe.config
+D:\Sigma\BattleLauncher\BattleLauncher\bin\Debug\BattleLauncher.exe
+D:\Sigma\BattleLauncher\BattleLauncher\bin\Debug\BattleLauncher.pdb
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\BattleLauncher.csproj.AssemblyReference.cache
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\BattleLauncher.csproj.SuggestedBindingRedirects.cache
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\View\MainWindow.g.cs
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\App.g.cs
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\BattleLauncher_MarkupCompile.cache
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\BattleLauncher_MarkupCompile.lref
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\View\MainWindow.baml
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\BattleLauncher.g.resources
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\BattleLauncher.Properties.Resources.resources
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\BattleLauncher.csproj.GenerateResource.cache
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\BattleLauncher.csproj.CoreCompileInputs.cache
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\BattleLauncher.exe
+D:\Sigma\BattleLauncher\BattleLauncher\obj\Debug\BattleLauncher.pdb
