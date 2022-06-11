@@ -1,13 +1,17 @@
-﻿<Window x:Class="BattleLauncher.MainWindow"
+﻿<Window x:Class="BattleLauncher.View.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BattleLauncher"
+        xmlns:vm="clr-namespace:BattleLauncher.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="1000"
         MaxHeight="600" MinHeight="600" MaxWidth="1000" MinWidth="1000" Background="#FF270E0E"
         WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" >
+    <Window.DataContext>
+        <vm:MainWindeowModel/>
+    </Window.DataContext>
     <Window.Resources>
         <ControlTemplate x:Key="TopMenuButtons" TargetType="Button">
             <Grid x:Name="Btn" Margin="20,0,0,0" Height="40">
@@ -79,7 +83,6 @@
         </ControlTemplate>
         <ControlTemplate x:Key="SideMenu" TargetType="Button">
             <Grid Name="Btn" Height="45">
-                
                 <Border>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="{DynamicResource ResourceKey=Img}"
@@ -160,6 +163,9 @@
             <RowDefinition Height="80"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
+        <Frame Grid.ColumnSpan="10" Grid.RowSpan="10" 
+               Content="{Binding CurPage}"
+               NavigationUIVisibility="Hidden"/>
         <Grid x:Name="TopMenu" Grid.ColumnSpan="2">
             <Border BorderThickness="1" BorderBrush="Gray" Background="Transparent">
                 <StackPanel Orientation="Horizontal">
@@ -186,51 +192,59 @@
             <Border BorderThickness="0" Background="Black" Opacity="0.6"/>
             <StackPanel>
                 <Button Template="{StaticResource SideMenu}"
-                        Content="World of Warcraft">
+                        Content="World of Warcraft"
+                        Command="{Binding OpenWOW}">
                     <Button.Resources>
                         <ImageSource x:Key="Img">Res/Icons/WOW.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource SideMenu}"
-                        Content="Call of Duty: 4">
+                        Content="Call of Duty: 4"
+                        Command="{Binding OpenCOD4}">
                     <Button.Resources>
                         <ImageSource x:Key="Img">Res/Icons/codbo4.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource SideMenu}"
-                        Content="Call of Duty: Modern Warfare">
+                        Content="Call of Duty: Modern Warfare"
+                        Command="{Binding OpenCOD_MW}">
                     <Button.Resources>
                         <ImageSource x:Key="Img">Res/Icons/codmw.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource SideMenu}"
-                        Content="Diablo">
+                        Content="Diablo"
+                        Command="{Binding OpenDiablo}">
                     <Button.Resources>
                         <ImageSource x:Key="Img">Res/Icons/diablo.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource SideMenu}"
-                        Content="Heroes of the Storm">
+                        Content="Heroes of the Storm"
+                        Command="{Binding OpenHOTS}">
                     <Button.Resources>
                         <ImageSource x:Key="Img">Res/Icons/hots.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource SideMenu}"
-                        Content="Hearthstone">
+                        Content="Hearthstone"
+                        Command="{Binding OpenHS}">
                     <Button.Resources>
                         <ImageSource x:Key="Img">Res/Icons/hs.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource SideMenu}"
-                        Content="Overwatch">
+                        Content="Overwatch"
+                        Command="{Binding OpenOW}">
                     <Button.Resources>
                         <ImageSource x:Key="Img">Res/Icons/overwatch.png</ImageSource>
                     </Button.Resources>
                 </Button>
                 <Button Template="{StaticResource SideMenu}"
-                        Content="World of Warcraft">
+                        Content="Warcraft 3"
+                        Command="{Binding OpenW3}">
                     <Button.Resources>
-                        <ImageSource x:Key="Img">Res/Icons/sc.png</ImageSource>
+                        <ImageSource x:Key="Img">Res/Icons/warcraaft3.png</ImageSource>
                     </Button.Resources>
                 </Button>
             </StackPanel>

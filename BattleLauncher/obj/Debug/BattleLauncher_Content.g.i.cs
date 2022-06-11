@@ -8,18 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/close.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/codbo4.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/codmw.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/codmw2.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/diablo.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/hots.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/hs.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/open.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/overwatch.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/sc.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/sc2.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/warcraaft3.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/icons/wow.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/topbackround/topdiablo.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/topbackround/tophots.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/topbackround/tophs.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/topbackround/topow.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/topbackround/topsc.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/topbackround/topsc2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/topbackround/topw3.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("view/res/topbackround/topwow.png")]
 
 
